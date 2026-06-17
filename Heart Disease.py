@@ -124,22 +124,9 @@ model, scaler, model_columns = load_assets()
 st.markdown("""
 <div class='hero'>
     <h1>Heart Health Predictor</h1>
-    <p>AI-Powered Cardiovascular Risk Assessment System</p>
+    <p>Check Heart Disease of Patient</p>
 </div>
 """, unsafe_allow_html=True)
-
-# =========================
-# SIDEBAR
-# =========================
-with st.sidebar:
-    st.title("🏥 Health AI")
-    st.info(
-        """
-        Enter patient information and click
-        **Predict Risk** to analyze the likelihood
-        of heart disease.
-        """
-    )
 
 # =========================
 # FORM
