@@ -28,7 +28,7 @@ This tool uses machine learning to assess potential heart disease risks based on
 
 # --- Prediction Form ---
 with st.form("patient_form"):
-    st.subheader("Patient Vitals")
+    st.subheader("Patient Information")
     col1, col2 = st.columns(2)
     
     with col1:
