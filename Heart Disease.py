@@ -21,7 +21,8 @@ model, scaler, model_columns = load_assets()
 # --- Header Section ---
 st.title("Heart Disease Predictor")
 st.markdown("""
-This tool uses machine learning to assess potential heart disease risks based on patient metrics. 
+This tool uses machine learning to assess potential heart disease risks based on patient metrics.
+
 *Please fill out the form below to receive a prediction.*
 """)
 st.divider()
