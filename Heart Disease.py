@@ -123,7 +123,7 @@ model, scaler, model_columns = load_assets()
 # =========================
 st.markdown("""
 <div class='hero'>
-    <h1>❤️ Heart Health Predictor</h1>
+    <h1>Heart Health Predictor</h1>
     <p>AI-Powered Cardiovascular Risk Assessment System</p>
 </div>
 """, unsafe_allow_html=True)
@@ -304,4 +304,4 @@ if submitted:
             st.warning("Moderate Risk")
         else:
             st.error("High Risk")
-```
+            
