@@ -23,7 +23,7 @@ with st.form("patient_form"):
         
     with col2:
         oldpeak = st.number_input("Oldpeak", min_value=0.0, max_value=10.0, value=0.0)
- 	        chol= st.number_input("Cholesterol", min_value=0, value=300)
+ 	    chol= st.number_input("Cholesterol", min_value=0, value=300)
         exang = st.selectbox("Exercise Induced Angina", [("No", 0), ("Yes", 1)], format_func=lambda x: x[0])[1]
         st_slope = st.selectbox("ST Slope", [("Up", 0), ("Flat", 1), ("Down", 2)], format_func=lambda x: x[0])[1]
         cp_type = st.selectbox("Chest Pain Type", [("ASY", 0), ("ATA", 1), ("NAP", 2), ("TA", 3)], format_func=lambda x: x[0])[1]
