@@ -124,7 +124,6 @@ model, scaler, model_columns = load_assets()
 st.markdown("""
 <div class='hero'>
     <h1>Heart Health Predictor</h1>
-    <p>Check Heart Disease of Patient</p>
 </div>
 """, unsafe_allow_html=True)
 
