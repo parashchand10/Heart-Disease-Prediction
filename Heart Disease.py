@@ -23,7 +23,7 @@ st.title("Heart Disease Predictor")
 st.markdown("""
 This tool uses machine learning to assess potential heart disease risks based on patient metrics.
 
-*Please fill out the form below to receive a prediction.*
+**Please fill out the form below to receive a prediction.**
 """)
 st.divider()
 
