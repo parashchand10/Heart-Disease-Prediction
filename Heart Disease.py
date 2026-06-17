@@ -50,9 +50,9 @@ footer {visibility: hidden;}
 /* Form Card */
 .form-card {
     background: white;
-    padding: 25px;
+    padding: 20px;
     border-radius: 20px;
-    box-shadow: 0px 6px 18px rgba(0,0,0,0.08);
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.08);
 }
 
 /* Prediction Cards */
