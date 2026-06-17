@@ -25,7 +25,6 @@ This tool uses machine learning to assess potential heart disease risks based on
 
 **Please fill out the form below to receive a prediction.**
 """)
-st.divider()
 
 # --- Prediction Form ---
 with st.form("patient_form"):
